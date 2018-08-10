@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+.div-top {
+    display: block;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+.nav-button {
+    border: none;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.nav-button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.my-food {
+    margin: 0;
+}
+
+.my-mail {
+    margin: 0;
+}
+
+.container-brojcinja {
+    padding: 50px 0px;
+    flex-wrap: wrap;
+}
+
+.brojcinja {
+    padding: 10px 20px;
+    color: black;
+    font-size: 25px;
+    align-items: center;
+}
+
+.brojcinja:hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.activ-brojce {
+    background-color: black;
+    color: white;
+}
+
+.naslov-pod-slika {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+.paragraf {
+    text-align: center;
+}
+
+.div-text-pod-kuvar {
+    text-align: center;
+    padding: 32px 0px;
+}
+.badge {
+    border-radius: 0px;
+}
+#badge1{
+    background-color: black;
+    font-size: 18px;
+}
